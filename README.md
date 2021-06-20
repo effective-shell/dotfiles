@@ -29,6 +29,14 @@ These dotfiles are deliberately basic, you can use them as a starting point for 
 
 Each of the features in the dotfiles is described in [Part 5 of the book Effective Shell](https://effective-shell.com/docs/part-5-building-your-toolkit/). This section of the book describes how to manage shell configuration with dotfiles.
 
+**set_ps1**
+
 You can use the `set_ps1` command in any shell that has sourced these dotfiles to change your command prompt. These prompts will work consistently in Bash-like shells as well as Zsh. An example is shown below, the initial style is `dwmkerr`, which is then changed to `debian`:
 
 ![Screenshot showing the 'dwmkerr' style for the command prompt](./docs/set-ps1-dwmkerr-style.png)
+
+**gpr**
+
+The `gpr` (Git Pull Reqeuest) function pushes the current branch to `origin` and opens a pull request if a pull request link is provided in the Git output - this works on GitHub, GitLab and BitBucket:
+
+![Screenshot showing the git pull request function](./docs/git-pull-request.png)
