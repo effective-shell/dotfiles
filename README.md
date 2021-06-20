@@ -21,7 +21,7 @@ Use the `uninstall.sh` script to remove the symlinks and lines that source from 
 
 ```sh
 cd dotfiles && ./uninstall.sh
-``
+```
 
 ## Features
 
