@@ -8,12 +8,20 @@ Clone the repository and run the `install.sh` script:
 
 ```sh
 git clone git://github.com/effective-shell/dotfiles.git
-cd dotfiles && install.sh
+cd dotfiles && ./install.sh
 ```
 
 This will create a symlink at `~/.shell.sh`. This file sets some basic shell configuration, and sources all of the files in the [`./shell.d`](./shell.d/) folder.
 
 If you have a `~/.bashrc` file, the `~/.shell.sh` file will be sourced at the end of the file. If you have a `~/.zshrc` the `~/.shell.sh` file will be sourced at the end of the file.
+
+## Uninstallation
+
+Use the `uninstall.sh` script to remove the symlinks and lines that source from the shell configuration files:
+
+```sh
+cd dotfiles && ./uninstall.sh
+``
 
 ## Features
 
