@@ -31,9 +31,9 @@ Each of the features in the dotfiles is described in [Part 5 of the book Effecti
 
 **set_ps1**
 
-You can use the `set_ps1` command in any shell that has sourced these dotfiles to change your command prompt. These prompts will work consistently in Bash-like shells as well as Zsh. An example is shown below, the initial style is `dwmkerr`, which is then changed to `debian`:
+You can use the `set_ps1` command in any shell that has sourced these dotfiles to change your command prompt. These prompts will work consistently in Bash-like shells as well as Zsh. An example is shown below, the initial style is `git` (which was previously named `dwmkerr` as you can see in the screenshot), which is then changed to `debian`:
 
-![Screenshot showing the 'dwmkerr' style for the command prompt](./docs/set-ps1-dwmkerr-style.png)
+![Screenshot showing the 'git' style for the command prompt](./docs/set-ps1-dwmkerr-style.png)
 
 **gpr**
 
