@@ -28,6 +28,6 @@ gpr() {
     link=$(echo ${push_output} | grep -o 'http.*' | head -n1 | sed -e 's/[[:space:]]*$//')
     if [ ${link} ]; then
         printf "\nOpening: ${green}${link}${reset}...\n"
-        python -mwebbrowser ${link}
+        python3 -mwebbrowser ${link}
     fi
 }
